@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.menu{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background-color: purple;
+	border: 2px solid white;
+	display: inline-block;
+	box-shadow: 0 0 15px black;
+	margin-top: 50px;
+	margin-left: 100px;
+	text-align: center;
+	-webkit-transform: rotate(-45deg);
+	   -moz-transform: rotate(-45deg);
+	    -ms-transform: rotate(-45deg);
+	     -o-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
+}
+
+.menu span{
+	display: inline-block;
+	margin-top: calc(50px - 13px);
+	color: white;
+
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	     -o-transform: rotate(45deg);
+	        transform: rotate(45deg);
+
+}
+
+.menu-icon{
+	display: none;
+	margin-top: calc(50px - 10px);
+}
+
+
+.helper-class{
+	-webkit-transform: rotate(-45deg);
+	   -moz-transform: rotate(-45deg);
+	    -ms-transform: rotate(-45deg);
+	     -o-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
+}
+
+.hidden-menu-icon i:hover{
+	cursor: pointer;
+}
+
+.list{
+	position: absolute;
+	margin-left: 220px;
+	margin-top: 62px;
+	display: inline-block;
+}
+
+.list ul li{
+	display: inline-block;
+	background-color: purple;
+	padding: 10px 20px;
+	border: 2px solid white;
+	box-shadow: 0 0 10px black;
+	margin-right: -2px;
+}
+.list ul li a{
+	text-decoration: none;
+	color: white;
+}
