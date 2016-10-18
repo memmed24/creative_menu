@@ -67,6 +67,10 @@ body{
 	box-shadow: 0 0 10px black;
 	margin-right: -2px;
 }
+
+.list ul li:nth-child(3){
+	background: linear-gradient(90deg, #F4994A , #C53A61, #2542E4);
+}
 .list ul li a{
 	text-decoration: none;
 	color: white;
